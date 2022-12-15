@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NBA Now Skills Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jQuery/jquery.js"></script>
+    <link rel="stylesheet" href="nbaSkills.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>NBA Now - Skills Calculator</h1>
+    <div class="inputs">
+        <div id="skill-slot-1">
+            <h2>Skill Slot 1</h2>
+            <div class="input-skill-name">
+                <p>Skill name</p>
+                <select name="skill-name" id="select-skill-name">
+                    <option value="select">Select the skill name</option>
+                    <option value="legend">Legend</option>
+                    <option value="almighty">Almighty</option>
+                    <option value="master">Master</option>
+                    <option value="elite">Elite</option>
+                    <option value="combo">Combo</option>
+                    <option value="pure">Pure</option>
+                    <option value="none">Conditional/Silver/Bronze</option>
+                </select>
+            </div>
+            <div class="input-skill-grade">
+                <p>Skill grade</p>
+                <select name="skill-grade" id="select-skill-grade" disabled>
+                    <option value="select">Select the skill grade</option>
+                </select>
+            </div>
+            <div class="input-skill-stats">
+                <p>Number of stats boosted</p>
+                <select name="skill-stats" id="select-skill-stats" disabled>
+                    <option value="select">Select the number of boosted stats</option>
+                </select>
+            </div>
+            <div class="input-skill-level">
+                <p>Skill level</p>
+                <select name="skill-level" id="select-skill-level" disabled>
+                    <option value="select">Select the skill level</option>
+                    <option value="1">Lv. 1</option>
+                    <option value="2">Lv. 2</option>
+                    <option value="3">Lv. 3</option>
+                    <option value="4">Lv. 4</option>
+                    <option value="5">Lv. 5</option>
+                    <option value="6">Lv. 6</option>
+                    <option value="7">Lv. 7</option>
+                </select>
+            </div>
+            <div class="line-minor"></div>
+            <div>
+                <p id="total-1">Total __</p>
+            </div>
+        </div>
+        <div id="skill-slot-2">
+            <h2>Skill Slot 2</h2>
+            <div class="input-skill-name">
+                <p>Skill name</p>
+                <select name="skill-name" id="select-skill-name-2">
+                    <option value="select">Select the skill name</option>
+                    <option value="legend">Legend</option>
+                    <option value="almighty">Almighty</option>
+                    <option value="master">Master</option>
+                    <option value="elite">Elite</option>
+                    <option value="combo">Combo</option>
+                    <option value="pure">Pure</option>
+                    <option value="none">Conditional/Silver/Bronze</option>
+                </select>
+            </div>
+            <div class="input-skill-grade">
+                <p>Skill grade</p>
+                <select name="skill-grade" id="select-skill-grade-2" disabled>
+                    <option value="select">Select the skill grade</option>
+                </select>
+            </div>
+            <div class="input-skill-stats">
+                <p>Number of stats boosted</p>
+                <select name="skill-stats" id="select-skill-stats-2" disabled>
+                    <option value="select">Select the number of boosted stats</option>
+                </select>
+            </div>
+            <div class="input-skill-level">
+                <p>Skill level</p>
+                <select name="skill-level" id="select-skill-level-2" disabled>
+                    <option value="select">Select the skill level</option>
+                    <option value="1">Lv. 1</option>
+                    <option value="2">Lv. 2</option>
+                    <option value="3">Lv. 3</option>
+                    <option value="4">Lv. 4</option>
+                    <option value="5">Lv. 5</option>
+                    <option value="6">Lv. 6</option>
+                    <option value="7">Lv. 7</option>
+                </select>
+            </div>
+            <div class="line-minor"></div>
+            <div>
+                <p id="total-2">Total __</p>
+            </div>
+        </div>
+        <div id="skill-slot-3">
+            <h2>Skill Slot 3</h2>
+            <div class="input-skill-name">
+                <p>Skill name</p>
+                <select name="skill-name" id="select-skill-name-3">
+                    <option value="select">Select the skill name</option>
+                    <option value="legend">Legend</option>
+                    <option value="almighty">Almighty</option>
+                    <option value="master">Master</option>
+                    <option value="elite">Elite</option>
+                    <option value="combo">Combo</option>
+                    <option value="pure">Pure</option>
+                    <option value="none">Conditional/Silver/Bronze</option>
+                </select>
+            </div>
+            <div class="input-skill-grade">
+                <p>Skill grade</p>
+                <select name="skill-grade" id="select-skill-grade-3" disabled>
+                    <option value="select">Select the skill grade</option>
+                </select>
+            </div>
+            <div class="input-skill-stats">
+                <p>Number of stats boosted</p>
+                <select name="skill-stats" id="select-skill-stats-3" disabled>
+                    <option value="select">Select the number of boosted stats</option>
+                </select>
+            </div>
+            <div class="input-skill-level">
+                <p>Skill level</p>
+                <select name="skill-level" id="select-skill-level-3" disabled>
+                    <option value="select">Select the skill level</option>
+                    <option value="1">Lv. 1</option>
+                    <option value="2">Lv. 2</option>
+                    <option value="3">Lv. 3</option>
+                    <option value="4">Lv. 4</option>
+                    <option value="5">Lv. 5</option>
+                    <option value="6">Lv. 6</option>
+                    <option value="7">Lv. 7</option>
+                </select>
+            </div>
+            <div class="line-minor"></div>
+            <div>
+                <p id="total-3">Total __</p>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div id="total">
+        <p id="total-points-counter">Total points __</p>
+    </div>
+    <script src="nbaSkills.js"></script>
+</body>
+</html>

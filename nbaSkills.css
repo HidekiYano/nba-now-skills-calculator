@@ -1,0 +1,112 @@
+@media only screen and (max-device-width: 768px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .input-skill-name, .input-skill-grade, .input-skill-stats, .input-skill-level {
+        text-align: center;
+        margin: 20px;
+    }
+
+    option {
+        text-align: center;
+    }
+}
+
+h1 {
+    font-family: 'Teko', monospace;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+h2 {
+    font-family: 'Teko', monospace;
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Teko', monospace;
+    font-size: 1.4rem;
+    margin: 5px;
+    padding: 0px;
+}
+
+#total-1, #total-2, #total-3 {
+    font-family: 'Teko', monospace;
+    font-size: 1.8rem;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+#total-points-counter {
+    font-family: 'Teko', monospace;
+    font-size: 3rem;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+#skill-slot-1, #skill-slot-2, #skill-slot-3 {
+    margin: 20px;
+}
+
+.input-skill-name, .input-skill-grade, .input-skill-stats, .input-skill-level {
+    margin: 20px;
+}
+
+select {
+    width: 250px;
+    height: 35px;
+}
+
+.line {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    width: 95%;
+    height: 2px;
+}
+
+.line-minor {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: black;
+    width: 95%;
+    height: 2px;
+}
+
+#total {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
